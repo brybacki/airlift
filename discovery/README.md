@@ -93,3 +93,9 @@ discovery.uri=http://localhost:8080
 ```
 
 The `DiscoveryClientConfig` class is responsible for holding this configuration.
+
+## Embedded Discovery for Testing
+
+For testing purposes or very simple single-process deployments, Airlift provides an in-memory discovery mechanism using `InMemoryDiscoveryClient` and `TestingDiscoveryModule`. This allows services within the same JVM to discover each other without an external discovery server.
+
+For more details, see [Embedded Discovery](./embedded-discovery.md).
