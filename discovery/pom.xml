@@ -91,6 +91,12 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>kubernetes-client</artifactId>
+            <version>6.9.2</version>
+        </dependency>
+
         <!-- for testing -->
         <dependency>
             <groupId>javax.servlet</groupId>
